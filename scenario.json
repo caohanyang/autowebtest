@@ -1,0 +1,26 @@
+[
+	
+	{
+	"goto":{
+		"url": "https://www.amazon.fr/"
+		}
+	},
+
+	{
+	"type":[{
+		"selector": "#twotabsearchtextbox"
+		},{
+		"text": "samsung 8"
+		}]
+	},
+
+	{        		
+		"kind": "click",
+		"value": ,
+		"selector": "#twotabsearchtextbox",
+	},
+
+	{
+		"kind": 
+	}
+]
