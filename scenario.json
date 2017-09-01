@@ -1,26 +1,18 @@
-[
+
+	{"kind":"",
+	"url":"",
+	"headers":"",
+	"selector":"",
+	"text":"",
+	"value":"",
+	"option": "",
+	"position": "",
+	"scale": "",
+	"type":"",
+	"file":"",
+	"function":"",
+	"args":"",
+	"time":""
+	},
+
 	
-	{
-	"goto":{
-		"url": "https://www.amazon.fr/"
-		}
-	},
-
-	{
-	"type":[{
-		"selector": "#twotabsearchtextbox"
-		},{
-		"text": "samsung 8"
-		}]
-	},
-
-	{        		
-		"kind": "click",
-		"value": ,
-		"selector": "#twotabsearchtextbox",
-	},
-
-	{
-		"kind": 
-	}
-]
