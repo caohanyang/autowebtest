@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+
+  "name": "Nightdream",
+  "description": "This extension is to record your actions into a scenario.",
+  "version": "1.0",
+
+  "permissions": [
+    "tabs",
+    "storage",
+    "webNavigation",
+    "*://*/"
+  ],
+
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; https://*.segment.com https://*.mxpnl.com; object-src 'self'",
+  "browser_action": {
+    "default_icon": "images/icon-black.png",
+    "default_title": "Nightdream"
+  },
+
+  "background": {
+    "scripts": [ "background.js" ],
+    "persistent": true
+  },
+  "commands": {
+    "detect-screenshot": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+3"
+      },
+      "description": "Detect a screenshot",
+      "global": true
+    }
+  }
+}
