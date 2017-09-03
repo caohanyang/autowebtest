@@ -39,12 +39,15 @@
   },
   "dependencies": {
     "analytics-node": "^3.0.0",
+    "assert": "^1.4.1",
     "component-each": "^0.2.6",
     "component-os": "0.0.1",
     "css-path": "^1.0.3",
     "highlight-javascript": "0.0.3",
+    "mocha": "^3.5.0",
     "syntax-highlighter": "0.0.3",
-    "uid": "0.0.2"
+    "uid": "0.0.2",
+    "wat-action": "^1.0.3"
   },
   "standard": {
     "globals": [

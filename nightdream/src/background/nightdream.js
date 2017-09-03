@@ -1,12 +1,13 @@
 import Recorder from './recorder'
 import each from 'component-each'
 import os from 'component-os'
-
+import * as watlib from 'wat-action'
 
 class Nightdream {
   constructor () {
     this.isRunning = false
     this.recorder = new Recorder()
+    this.scenario = new watlib.Scenario()
   }
 
   boot () {
@@ -39,22 +40,24 @@ class Nightdream {
   parse (recording) {
     let newLine = '\n'
     if (os === 'windows') newLine = '\r\n'
-
+    
     let result = [
       'const Nightmare = require(\'nightmare\')',
       `const nightmare = Nightmare({ show: true })${newLine}`,
       `nightmare${newLine}`
     ].join(newLine)
 
-    each(recording, function (record, i) {
-      const type = record[0]
-      const content = record[1]
+    for (var i = 0; i < recording.length; i++) {
+      const type = recording[i][0]
+      const content = recording[i][1]
       switch (type) {
         case 'goto':
           result += `  .goto('${content}')${newLine}`
+          this.scenario.addAction(new watlib.GotoAction(content))
           break
         case 'click':
           result += `  .click('${content}')${newLine}`
+          this.scenario.addAction(new watlib.ClickAction(content))
           break
         case 'type':
           const val = record[2]
@@ -81,7 +84,9 @@ class Nightdream {
         default:
           console.log('Not a valid nightmare command')
       }
-    })
+    }
+
+    console.log(this.scenario)
 
     result +=
 
@@ -91,10 +96,12 @@ class Nightdream {
     })
     .catch(function (error) {
       console.error('Error:', error);
-    });`
+    });${newLine}`
 
+    result += this.scenario
     return result
   }
+
 }
 
 export default Nightdream
