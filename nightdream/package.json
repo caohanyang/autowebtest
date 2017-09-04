@@ -47,7 +47,7 @@
     "mocha": "^3.5.0",
     "syntax-highlighter": "0.0.3",
     "uid": "0.0.2",
-    "wat-action": "^1.0.3"
+    "wat-action": "^1.0.4"
   },
   "standard": {
     "globals": [

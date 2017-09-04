@@ -98,7 +98,7 @@ class Nightdream {
       console.error('Error:', error);
     });${newLine}`
 
-    result += this.scenario
+    result += this.scenario.toJSON()
     return result
   }
 
