@@ -1,0 +1,326 @@
+[
+  {
+    "type": "GotoAction",
+    "url": "https://www.amazon.com/"
+  },
+  {
+    "type": "ScrollToAction",
+    "x": 0,
+    "y": 10
+  },
+  {
+    "type": "WaitAction",
+    "ms": 1000
+  },
+  {
+    "type": "BackAction"
+  },
+  {
+    "type": "TypeAction",
+    "selector": "#mainlaunch > DIV:nth-child(1) > DIV:nth-child(2) > FORM:nth-child(1) > DIV:nth-child(2) > DIV:nth-child(1) > INPUT:nth-child(2)",
+    "text": "inputText"
+  },
+  {
+    "type": "TypeAction",
+    "selector": "#loginmodule > DIV:nth-child(1) > DIV:nth-child(3) > FORM:nth-child(1) > DIV:nth-child(2) > DIV:nth-child(1) > INPUT:nth-child(2)",
+    "text": "inputText"
+  },
+  {
+    "type": "TypeAction",
+    "selector": "#mainlaunch > DIV:nth-child(1) > DIV:nth-child(2) > FORM:nth-child(1) > DIV:nth-child(2) > DIV:nth-child(3) > INPUT:nth-child(2)",
+    "text": "inputPassword"
+  },
+  {
+    "type": "TypeAction",
+    "selector": "#loginmodule > DIV:nth-child(1) > DIV:nth-child(3) > FORM:nth-child(1) > DIV:nth-child(2) > DIV:nth-child(3) > INPUT:nth-child(2)",
+    "text": "inputPassword"
+  },
+  {
+    "type": "CheckAction",
+    "selector": "#agree"
+  },
+  {
+    "type": "CheckAction",
+    "selector": "#agreeBot"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#logo"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#main-navigation > UL:nth-child(1) > LI:nth-child(1) > A:nth-child(1)"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#main-navigation > UL:nth-child(1) > LI:nth-child(2) > A:nth-child(1)"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#main-navigation > UL:nth-child(1) > LI:nth-child(3) > A:nth-child(1)"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#main-navigation > UL:nth-child(1) > LI:nth-child(4) > A:nth-child(1)"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#shownav"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#login"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#mainlaunch > DIV:nth-child(1) > DIV:nth-child(2) > FORM:nth-child(1) > DIV:nth-child(3) > A:nth-child(3)"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#mainlaunch > DIV:nth-child(1) > DIV:nth-child(2) > FORM:nth-child(1) > DIV:nth-child(4) > A:nth-child(1)"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#pushdown"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#aboutjoomla > DIV:nth-child(1) > DIV:nth-child(2) > DIV:nth-child(2) > P:nth-child(3) > A:nth-child(1)"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#aboutjoomla > DIV:nth-child(1) > DIV:nth-child(2) > DIV:nth-child(3) > P:nth-child(3) > A:nth-child(1)"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#templates > DIV:nth-child(1) > P:nth-child(2) > A:nth-child(1)"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#templates-wrap > DIV:nth-child(1) > DIV:nth-child(2) > DIV:nth-child(2) > UL:nth-child(1) > LI:nth-child(1) > A:nth-child(1)"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#templates-wrap > DIV:nth-child(1) > DIV:nth-child(2) > DIV:nth-child(2) > UL:nth-child(1) > LI:nth-child(2) > A:nth-child(1)"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#templates-wrap > DIV:nth-child(2) > DIV:nth-child(2) > DIV:nth-child(2) > UL:nth-child(1) > LI:nth-child(1) > A:nth-child(1)"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#templates-wrap > DIV:nth-child(2) > DIV:nth-child(2) > DIV:nth-child(2) > UL:nth-child(1) > LI:nth-child(2) > A:nth-child(1)"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#templates-wrap > DIV:nth-child(3) > DIV:nth-child(2) > DIV:nth-child(2) > UL:nth-child(1) > LI:nth-child(1) > A:nth-child(1)"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#templates-wrap > DIV:nth-child(3) > DIV:nth-child(2) > DIV:nth-child(2) > UL:nth-child(1) > LI:nth-child(2) > A:nth-child(1)"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#templates-wrap > DIV:nth-child(4) > DIV:nth-child(2) > DIV:nth-child(2) > UL:nth-child(1) > LI:nth-child(1) > A:nth-child(1)"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#templates-wrap > DIV:nth-child(4) > DIV:nth-child(2) > DIV:nth-child(2) > UL:nth-child(1) > LI:nth-child(2) > A:nth-child(1)"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#templates-wrap > DIV:nth-child(5) > DIV:nth-child(2) > DIV:nth-child(2) > UL:nth-child(1) > LI:nth-child(1) > A:nth-child(1)"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#templates-wrap > DIV:nth-child(5) > DIV:nth-child(2) > DIV:nth-child(2) > UL:nth-child(1) > LI:nth-child(2) > A:nth-child(1)"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#templates-wrap > DIV:nth-child(6) > DIV:nth-child(2) > DIV:nth-child(2) > UL:nth-child(1) > LI:nth-child(1) > A:nth-child(1)"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#templates-wrap > DIV:nth-child(6) > DIV:nth-child(2) > DIV:nth-child(2) > UL:nth-child(1) > LI:nth-child(2) > A:nth-child(1)"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#loginmodule > DIV:nth-child(1) > DIV:nth-child(3) > FORM:nth-child(1) > DIV:nth-child(3) > A:nth-child(3)"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#loginmodule > DIV:nth-child(1) > DIV:nth-child(3) > FORM:nth-child(1) > DIV:nth-child(4) > A:nth-child(1)"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#footer-nav > UL:nth-child(1) > LI:nth-child(1) > A:nth-child(1)"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#footer-nav > UL:nth-child(1) > LI:nth-child(2) > A:nth-child(1)"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#footer-nav > UL:nth-child(1) > LI:nth-child(3) > A:nth-child(1)"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#footer-nav > UL:nth-child(1) > LI:nth-child(4) > A:nth-child(1)"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#footer > DIV:nth-child(1) > DIV:nth-child(1) > P:nth-child(2) > A:nth-child(1)"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#footer > DIV:nth-child(3) > DIV:nth-child(1) > P:nth-child(1) > A:nth-child(1)"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#footer > DIV:nth-child(3) > DIV:nth-child(1) > P:nth-child(1) > A:nth-child(2)"
+  },
+  {
+    "type": "MouseOverAction",
+    "selector": "#footer > DIV:nth-child(3) > DIV:nth-child(1) > P:nth-child(1) > A:nth-child(3)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#logo"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#main-navigation > UL:nth-child(1) > LI:nth-child(1) > A:nth-child(1)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#main-navigation > UL:nth-child(1) > LI:nth-child(2) > A:nth-child(1)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#main-navigation > UL:nth-child(1) > LI:nth-child(3) > A:nth-child(1)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#main-navigation > UL:nth-child(1) > LI:nth-child(4) > A:nth-child(1)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#shownav"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#login"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#mainlaunch > DIV:nth-child(1) > DIV:nth-child(2) > FORM:nth-child(1) > DIV:nth-child(3) > A:nth-child(3)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#mainlaunch > DIV:nth-child(1) > DIV:nth-child(2) > FORM:nth-child(1) > DIV:nth-child(4) > A:nth-child(1)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#pushdown"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#aboutjoomla > DIV:nth-child(1) > DIV:nth-child(2) > DIV:nth-child(2) > P:nth-child(3) > A:nth-child(1)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#aboutjoomla > DIV:nth-child(1) > DIV:nth-child(2) > DIV:nth-child(3) > P:nth-child(3) > A:nth-child(1)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#templates > DIV:nth-child(1) > P:nth-child(2) > A:nth-child(1)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#templates-wrap > DIV:nth-child(1) > DIV:nth-child(2) > DIV:nth-child(2) > UL:nth-child(1) > LI:nth-child(1) > A:nth-child(1)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#templates-wrap > DIV:nth-child(1) > DIV:nth-child(2) > DIV:nth-child(2) > UL:nth-child(1) > LI:nth-child(2) > A:nth-child(1)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#templates-wrap > DIV:nth-child(2) > DIV:nth-child(2) > DIV:nth-child(2) > UL:nth-child(1) > LI:nth-child(1) > A:nth-child(1)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#templates-wrap > DIV:nth-child(2) > DIV:nth-child(2) > DIV:nth-child(2) > UL:nth-child(1) > LI:nth-child(2) > A:nth-child(1)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#templates-wrap > DIV:nth-child(3) > DIV:nth-child(2) > DIV:nth-child(2) > UL:nth-child(1) > LI:nth-child(1) > A:nth-child(1)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#templates-wrap > DIV:nth-child(3) > DIV:nth-child(2) > DIV:nth-child(2) > UL:nth-child(1) > LI:nth-child(2) > A:nth-child(1)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#templates-wrap > DIV:nth-child(4) > DIV:nth-child(2) > DIV:nth-child(2) > UL:nth-child(1) > LI:nth-child(1) > A:nth-child(1)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#templates-wrap > DIV:nth-child(4) > DIV:nth-child(2) > DIV:nth-child(2) > UL:nth-child(1) > LI:nth-child(2) > A:nth-child(1)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#templates-wrap > DIV:nth-child(5) > DIV:nth-child(2) > DIV:nth-child(2) > UL:nth-child(1) > LI:nth-child(1) > A:nth-child(1)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#templates-wrap > DIV:nth-child(5) > DIV:nth-child(2) > DIV:nth-child(2) > UL:nth-child(1) > LI:nth-child(2) > A:nth-child(1)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#templates-wrap > DIV:nth-child(6) > DIV:nth-child(2) > DIV:nth-child(2) > UL:nth-child(1) > LI:nth-child(1) > A:nth-child(1)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#templates-wrap > DIV:nth-child(6) > DIV:nth-child(2) > DIV:nth-child(2) > UL:nth-child(1) > LI:nth-child(2) > A:nth-child(1)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#loginmodule > DIV:nth-child(1) > DIV:nth-child(3) > FORM:nth-child(1) > DIV:nth-child(3) > A:nth-child(3)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#loginmodule > DIV:nth-child(1) > DIV:nth-child(3) > FORM:nth-child(1) > DIV:nth-child(4) > A:nth-child(1)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#footer-nav > UL:nth-child(1) > LI:nth-child(1) > A:nth-child(1)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#footer-nav > UL:nth-child(1) > LI:nth-child(2) > A:nth-child(1)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#footer-nav > UL:nth-child(1) > LI:nth-child(3) > A:nth-child(1)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#footer-nav > UL:nth-child(1) > LI:nth-child(4) > A:nth-child(1)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#footer > DIV:nth-child(1) > DIV:nth-child(1) > P:nth-child(2) > A:nth-child(1)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#footer > DIV:nth-child(3) > DIV:nth-child(1) > P:nth-child(1) > A:nth-child(1)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#footer > DIV:nth-child(3) > DIV:nth-child(1) > P:nth-child(1) > A:nth-child(2)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#footer > DIV:nth-child(3) > DIV:nth-child(1) > P:nth-child(1) > A:nth-child(3)"
+  }
+]
