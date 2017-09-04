@@ -60,8 +60,9 @@ class Nightdream {
           this.scenario.addAction(new watlib.ClickAction(content))
           break
         case 'type':
-          const val = record[2]
+          const val = recording[i][2]
           result += `  .type('${content}', '${val}')${newLine}`
+          this.scenario.addAction(new watlib.TypeAction(content, val))
           break
         case 'screenshot':
           result += `  .screenshot('${content}')${newLine}`
