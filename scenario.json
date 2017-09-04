@@ -1,1 +1,17 @@
-[{"type":"GotoAction","url":"https://www.amazon.fr/"},{"type":"TypeAction","selector":"#twotabsearchtextbox","text":"samsung s8"},{"type":"ClickAction","selector":"#nav-search > FORM:nth-child(2) > DIV:nth-child(3) > DIV:nth-child(1) > INPUT:nth-child(2)"}]
+{
+  "actions": [
+    {
+      "type": "GotoAction",
+      "url": "https://www.amazon.fr/"
+    },
+    {
+      "selector": "#twotabsearchtextbox",
+      "type": "ClickAction"
+    },
+    {
+      "selector": "#nav-search > FORM:nth-child(2) > DIV:nth-child(3) > DIV:nth-child(1) > INPUT:nth-child(2)",
+      "type": "ClickAction"
+    }
+  ],
+  "index": 0
+}

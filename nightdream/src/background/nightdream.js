@@ -102,7 +102,7 @@ class Nightdream {
     result += this.scenario.toJSON()
 
     // return result
-    return this.scenario.toJSON()
+    return this.scenario
   }
 
 }
