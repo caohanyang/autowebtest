@@ -9,7 +9,8 @@
     "tabs",
     "storage",
     "webNavigation",
-    "*://*/"
+    "*://*/",
+    "downloads"
   ],
 
   "content_security_policy": "script-src 'self' https://*.segment.com https://*.mxpnl.com; object-src 'self'",

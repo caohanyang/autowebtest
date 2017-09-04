@@ -1,18 +1,1 @@
-
-	{"kind":"",
-	"url":"",
-	"headers":"",
-	"selector":"",
-	"text":"",
-	"value":"",
-	"option": "",
-	"position": "",
-	"scale": "",
-	"type":"",
-	"file":"",
-	"function":"",
-	"args":"",
-	"time":""
-	},
-
-	
+[{"type":"GotoAction","url":"https://www.amazon.fr/ref=nav_logo"},{"type":"ClickAction","selector":"#nav-link-yourAccount > SPAN:nth-child(1)"}]

@@ -36,7 +36,7 @@ class Nightdream {
       })
     })
   }
-
+ 
   parse (recording) {
     let newLine = '\n'
     if (os === 'windows') newLine = '\r\n'
@@ -99,7 +99,9 @@ class Nightdream {
     });${newLine}`
 
     result += this.scenario.toJSON()
-    return result
+
+    // return result
+    return this.scenario.toJSON()
   }
 
 }
