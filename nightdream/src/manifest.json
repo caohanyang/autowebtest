@@ -15,7 +15,7 @@
 
   "content_security_policy": "script-src 'self' https://*.segment.com https://*.mxpnl.com; object-src 'self'",
   "browser_action": {
-    "default_icon": "images/icon-black.png",
+    "default_icon": "images/icon-start.png",
     "default_title": "Nightdream"
   },
 

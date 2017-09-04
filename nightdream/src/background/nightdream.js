@@ -15,10 +15,10 @@ class Nightdream {
       chrome.tabs.query({ currentWindow: true, active: true }, tabs => {
         if (!this.isRunning) {
           this.recorder.startRecording()
-          chrome.browserAction.setIcon({ path: 'images/icon-green.png', tabId: tab.id })
+          chrome.browserAction.setIcon({ path: 'images/icon-end.png', tabId: tab.id })
         } else {
           this.recorder.stopRecording()
-          chrome.browserAction.setIcon({ path: 'images/icon-black.png', tabId: tab.id })
+          chrome.browserAction.setIcon({ path: 'images/icon-start.png', tabId: tab.id })
           const nightmare = this.parse(this.recorder.recording)
           chrome.storage.sync.set({ 'nightmare': nightmare })
           chrome.browserAction.setPopup({ popup: 'popup.html' })
@@ -31,7 +31,7 @@ class Nightdream {
     chrome.webNavigation.onCommitted.addListener(details => {
       chrome.tabs.query({ currentWindow: true, active: true }, tabs => {
         if (this.isRunning) {
-          chrome.browserAction.setIcon({ path: 'images/icon-green.png', tabId: tabs[0].id })
+          chrome.browserAction.setIcon({ path: 'images/icon-end.png', tabId: tabs[0].id })
         }
       })
     })
