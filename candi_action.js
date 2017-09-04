@@ -49,10 +49,9 @@ nightmare.goto(urlcheck).screenshot()
 		scenario.addAction(new watlib.ClickAction(inputToClick.selector));
 	});
 
-	scenarioJson = scenario.toJSON();
-	scenarioJson1 = JSON.stringify(scenario);
+	scenarioJson = JSON.stringify(JSON.parse(scenario.toJSON()),null,2);
 
-	console.log(scenario);
+	console.log(scenarioJson);
 
 	var path = __dirname + '/set_actions.json';
 
@@ -60,7 +59,7 @@ nightmare.goto(urlcheck).screenshot()
 		fs.unlinkSync(path);
 	}
 
-	fs.writeFile(path, scenarioJson1, {flag: 'a'}, function (err) {
+	fs.writeFile(path, scenarioJson, {flag: 'a'}, function (err) {
 		if(err) {
 			console.error(err);
 		} else {
