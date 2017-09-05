@@ -69,6 +69,5 @@ nightmare.goto(urlcheck).screenshot()
 
 
 }).catch(err => {
-    	// winston.info(err);
     	console.log(err);
     });
