@@ -16,7 +16,6 @@ module.exports = function() {
             if (sels[i].href)
                 selectors.push({
                     kind: "click",
-                    value: sels[i].getAttribute('value'),
                     selector: computeSelector(sels[i]),
                 });
         }
