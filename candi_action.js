@@ -10,7 +10,7 @@ var urlTextarea = 'https://translate.google.cn/'; // there is a textarea
 var scenario = new watlib.Scenario();
 
 // nightmare.goto(url).wait(2000).screenshot()
-nightmare.goto(url).screenshot()
+nightmare.goto(urlcheck).screenshot()
 .then(() => {
 	return nightmare.evaluate(htmlAnalysis).end();
 }).then(analysisResult => {
