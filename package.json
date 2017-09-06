@@ -18,6 +18,7 @@
   "homepage": "https://github.com/caohanyang/AutoWebTest#readme",
   "dependencies": {
     "fs": "0.0.1-security",
-    "nightmare": "^2.10.0"
+    "nightmare": "^2.10.0",
+    "path": "^0.12.7"
   }
 }
