@@ -9,6 +9,30 @@
     "text": "samsung s8"
   },
   {
+    "type": "WaitAction",
+    "ms": "5"
+  },
+  {
+    "type": "ScrollToAction",
+    "x": "100",
+    "y": "200"
+  },
+  {
+    "type": "ScrollToAction",
+    "x": "100",
+    "y": "200"
+  },
+  {
+    "type": "ScrollToAction",
+    "x": "100",
+    "y": "200"
+  },
+  {
+    "type": "ScrollToAction",
+    "x": "100",
+    "y": "200"
+  },
+  {
     "type": "ClickAction",
     "selector": "#nav-search > FORM:nth-child(2) > DIV:nth-child(3) > DIV:nth-child(1) > INPUT:nth-child(2)"
   }

@@ -4,7 +4,9 @@ const wat_action = require('wat-action');
 const fs = require('fs');
 
 var scenarioString = require('./scenario.json');
+console.log(scenarioString)
 const scenario = new wat_action.Scenario(scenarioString)
+console.log("scenarioString")
 const waitAction = new wat_action.WaitAction('5');
 const scrollToAction = new wat_action.ScrollToAction('100', '200');
 

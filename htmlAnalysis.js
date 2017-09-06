@@ -1,5 +1,7 @@
 module.exports = function() {
 
+    const CLICKABLE_TAGS = ['button','submit','reset'];
+
     return {
         selectorsA: grabSelectorA(),
         checkbox: grabCheckbox(),
@@ -57,7 +59,8 @@ module.exports = function() {
         var sels = document.getElementsByTagName('input');
         for (var i = 0; i < sels.length; i++) {
             t = sels[i].type
-            if (t == 'button' || t == 'file' || t == 'button' || t == 'submit' || t == 'reset' || t == 'radio')
+            if (CLICKABLE_TAGS.indexOf(sels[i]) !== -1） {
+            //if (t == 'button' || t == 'file' || t == 'button' || t == 'submit' || t == 'reset' || t == 'radio')
                 selectors.push({
                     kind: "click",
                     selector: computeSelector(sels[i]),

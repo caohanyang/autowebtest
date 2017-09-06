@@ -1,0 +1,23 @@
+{
+  "name": "autowebtest",
+  "version": "1.0.0",
+  "description": "Auto test for the website",
+  "main": "player.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caohanyang/AutoWebTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caohanyang/AutoWebTest/issues"
+  },
+  "homepage": "https://github.com/caohanyang/AutoWebTest#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "nightmare": "^2.10.0"
+  }
+}

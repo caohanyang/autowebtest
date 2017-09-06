@@ -6,7 +6,7 @@ import './index.css'
 chrome.storage.sync.get('nightmare', function (res) {
   const el = document.querySelector('pre')
   const highlight = Highlight().use(js)
-  el.innerText = JSON.stringify(res.nightmare, null, 2)
+  el.innerText = JSON.stringify(JSON.parse(res.nightmare), null, 2)
   highlight.element(el)
 })
 
