@@ -1,6 +1,6 @@
 module.exports = function() {
 
-    const CLICKABLE_TAGS = ['button','submit','reset'];
+    const CLICKABLE_TAGS = ['submit','reset','radio','file'];
 
     return {
         selectorsA: grabSelectorA(),
@@ -58,12 +58,13 @@ module.exports = function() {
         var sels = document.getElementsByTagName('input');
         for (var i = 0; i < sels.length; i++) {
             t = sels[i].type
-            if (CLICKABLE_TAGS.indexOf(sels[i]) !== -1） {
-            //if (t == 'button' || t == 'file' || t == 'button' || t == 'submit' || t == 'reset' || t == 'radio')
+            if (CLICKABLE_TAGS.indexOf(sels[i]) !== -1){
                 selectors.push({
                     kind: "click",
                     selector: computeSelector(sels[i]),
                 });
+            }
+                
         }
 
         return selectors;
