@@ -9,23 +9,21 @@
     "text": "samsung s8"
   },
   {
+    "type": "ScrollToAction",
+    "x": "100",
+    "y": "200"
+  },
+  {
     "type": "WaitAction",
     "ms": "5"
   },
   {
-    "type": "ScrollToAction",
-    "x": "100",
-    "y": "200"
+    "type": "WaitAction",
+    "ms": "5"
   },
   {
-    "type": "ScrollToAction",
-    "x": "100",
-    "y": "200"
-  },
-  {
-    "type": "ScrollToAction",
-    "x": "100",
-    "y": "200"
+    "type": "WaitAction",
+    "ms": "5"
   },
   {
     "type": "ScrollToAction",
