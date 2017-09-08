@@ -28,9 +28,12 @@ class Player {
 				.end()
 				.then((doc) => {
 					//...
+					// done();
 				})
 				.catch ( (e) => {
-					//...
+
+					// done();
+				
 				});
 	}
 	
