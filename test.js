@@ -17,6 +17,7 @@ const fs = require('fs');
 
 
 var dir = __dirname + '/noiseScenaio';
+var jsonObject = { "in": {}, "out": {}};
 
 describe('Test Scenarios', function() {
     
@@ -27,13 +28,14 @@ describe('Test Scenarios', function() {
             // player.play(dir + '/' + files[i]);
             var scenarioString = require(path);
             const scenario = new wat_action.Scenario(scenarioString);
-            console.log(scenarioString)
-            
+            // console.log(scenarioString)
+
             describe('Running scenario ' + i, function() {
+                
                 this.timeout(40000);
                 it('should play the scenario', function(done) {
-                    
-                    var nightmare = new Nightmare({show:true});
+                    var nightmare = new Nightmare({show:false});
+                    var transferString = scenario.toJSON();
                     scenario.attachTo(nightmare)
                             .evaluate(function() {
                                 return document;
@@ -41,6 +43,7 @@ describe('Test Scenarios', function() {
                             .end()
                             .then((href) => {
                                 assert(true);
+                                addToClassifier(transferString, "in");
                                 done();
                             })
                             .catch( (e) => {
@@ -49,13 +52,109 @@ describe('Test Scenarios', function() {
                                     done();
                                 }
                                 catch (e) {
+                                    addToClassifier(transferString, "out");
                                     done(e);
                                 }
                             })
                 })
+                
             })
         }
     }
-    
 
+    after(function() {
+        // runs after all tests in this block
+        var jsonString = JSON.stringify(jsonObject,null,2)
+        fs.writeFile('inAndOut.json', jsonString, function(err) {
+           if(err) {
+               console.log(err);
+           } else {
+               console.log("write success")
+           }
+        })
+      });
 });
+
+
+function addToClassifier(transferString, option){
+    var scenarioJson = JSON.parse(transferString);
+    var action = scenarioJson.splice(1, 1)[0]
+    console.log(action)
+
+    if (option === "in") {
+    console.log(action)
+    classifierAction(action, jsonObject.in)
+    } else if (option === "out") {
+        classifierAction(action, jsonObject.out)
+    }
+    
+}
+
+function classifierAction(actionJSON, wholeJson) {
+    switch (actionJSON.type) {
+        case 'GotoAction':
+            if (wholeJson.hasOwnProperty(actionJSON.type)) {
+                wholeJson.GotoAction.push({"url": actionJSON.url});
+            } else {
+                wholeJson[actionJSON.type] = [];
+                wholeJson.GotoAction.push({"url": actionJSON.url});
+            }
+            break;
+        case 'ClickAction':
+            if (wholeJson.hasOwnProperty(actionJSON.type)) {
+                wholeJson.ClickAction.push({"selector": actionJSON.selector});
+            } else {
+                wholeJson[actionJSON.type] = [];
+                wholeJson.ClickAction.push({"selector": actionJSON.selector});
+            }
+            break;
+        case 'CheckAction':
+            if (wholeJson.hasOwnProperty(actionJSON.type)) {
+                wholeJson.CheckAction.push({"selector": actionJSON.selector});
+            } else {
+                wholeJson[actionJSON.type] = [];
+                wholeJson.CheckAction.push({"selector": actionJSON.selector});
+            }
+            break;
+        case 'MouseOverAction':
+            if (wholeJson.hasOwnProperty(actionJSON.type)) {
+                wholeJson.MouseOverAction.push({"selector": actionJSON.selector});
+            } else {
+                wholeJson[actionJSON.type] = [];
+                wholeJson.MouseOverAction.push({"selector": actionJSON.selector});
+            }
+            break;
+        case 'TypeAction':
+            if (wholeJson.hasOwnProperty(actionJSON.type)) {
+                wholeJson.TypeAction.push({"selector": actionJSON.selector, "text": actionJSON.text});
+            } else {
+                wholeJson[actionJSON.type] = [];
+                wholeJson.TypeAction.push({"selector": actionJSON.selector, "text": actionJSON.text});
+            }
+            break;
+        case 'ScrollToAction':
+            if (wholeJson.hasOwnProperty(actionJSON.type)) {
+                wholeJson.ScrollToAction.push({"x": actionJSON.x, "y": actionJSON.y});
+            } else {
+                wholeJson[actionJSON.type] = [];
+                wholeJson.ScrollToAction.push({"x": actionJSON.x, "y": actionJSON.y});
+            }
+            break;
+        case 'WaitAction':
+            if (wholeJson.hasOwnProperty(actionJSON.type)) {
+                wholeJson.WaitAction.push({"ms": actionJSON.ms});
+            } else {
+                wholeJson[actionJSON.type] = [];
+                wholeJson.WaitAction.push({"ms": actionJSON.ms});
+            }
+            break;
+        case 'BackAction':
+            if (wholeJson.hasOwnProperty(actionJSON.type)) {
+                wholeJson.BackAction.push();
+            } else {
+                wholeJson[actionJSON.type] = [];
+                wholeJson.BackAction.push();
+            }
+            break;
+    }
+}

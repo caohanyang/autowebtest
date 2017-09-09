@@ -14,25 +14,6 @@ var dir = __dirname + '/noiseScenaio';
 
 addnoise(dir)
 
-// playScenarios(dir)
-
-
-// function playScenarios(dir) {
-//     var Player = require('./player.js')
-//     var player = new Player.Player
-
-//     var files = fs.readdirSync(dir);
-//     for (var i in files) {
-//         var path = dir + '/' + files[i];
-//         console.log(path)
-//         if (path.endsWith('.json')) {
-//             player.play(dir + '/' + files[i]);
-//         }
-//     }
-// }
-
-
-
 function addnoise(dir){
       for(var i = 0; i < noise.actions.length; i++)
       {
