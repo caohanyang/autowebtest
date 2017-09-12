@@ -1,0 +1,687 @@
+{
+  "true": [
+    {
+      "type": "GotoAction",
+      "url": "http://www.labri.fr/"
+    },
+    {
+      "type": "ScrollToAction",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(4) > TD:nth-child(7) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(3) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(4) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(5) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(6) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(7) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(8) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(9) > LI:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(9) > LI:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(4) > TD:nth-child(8) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(9) > LI:nth-child(3) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(9) > LI:nth-child(4) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(9) > LI:nth-child(5) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > P:nth-child(10) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(12) > LI:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(12) > LI:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(14) > LI:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(14) > LI:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(14) > LI:nth-child(3) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(14) > LI:nth-child(4) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > DIV:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(14) > LI:nth-child(5) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(16) > LI:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > P:nth-child(19) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > P:nth-child(19) > A:nth-child(3)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > P:nth-child(20) > A:nth-child(2)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > DIV:nth-child(22) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > DIV:nth-child(23) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(1) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(1) > P:nth-child(1) > SPAN:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(1) > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(1) > DIV:nth-child(1) > A:nth-child(3)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > P:nth-child(3) > STRONG:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > DIV:nth-child(2) > A:nth-child(2)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(1) > DIV:nth-child(1) > A:nth-child(3)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(2)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(3)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(6)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(10)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(11)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(3) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(3) > TD:nth-child(2) > P:nth-child(1) > A:nth-child(13)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(3) > TD:nth-child(2) > P:nth-child(1) > A:nth-child(16)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > DIV:nth-child(2) > A:nth-child(3)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(5) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(5) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(5) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(2)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(5) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(4)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(5) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(9)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(7) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(7) > TD:nth-child(2) > P:nth-child(1) > A:nth-child(5)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(7) > TD:nth-child(2) > P:nth-child(1) > A:nth-child(7)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(7) > TD:nth-child(2) > P:nth-child(1) > A:nth-child(8)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(7) > TD:nth-child(2) > P:nth-child(1) > A:nth-child(11)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#langue > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(9) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(4)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(9) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(7)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(9) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(8)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(11) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(11) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(3)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(11) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(6)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(11) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(8)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(11) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(9)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(11) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(13)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(11) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(14)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#langue > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(13) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(13) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(9)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(13) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(13)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(3) > TD:nth-child(1) > P:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikicmds > P:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#principale > TBODY:nth-child(1) > TR:nth-child(3) > TD:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(5) > LI:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(5) > LI:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "WaitAction",
+      "ms": 1000
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(3) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(4) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(5) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(6) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(7) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(8) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(9) > LI:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(9) > LI:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(9) > LI:nth-child(3) > A:nth-child(1)"
+    },
+    {
+      "type": "BackAction"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(9) > LI:nth-child(4) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(9) > LI:nth-child(5) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > P:nth-child(10) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(12) > LI:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(12) > LI:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(14) > LI:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(14) > LI:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(14) > LI:nth-child(3) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(14) > LI:nth-child(4) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(14) > LI:nth-child(5) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(16) > LI:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > P:nth-child(19) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > P:nth-child(19) > A:nth-child(3)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > P:nth-child(20) > A:nth-child(2)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > DIV:nth-child(22) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > DIV:nth-child(23) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(1) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(1) > P:nth-child(1) > SPAN:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(1) > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(1) > DIV:nth-child(1) > A:nth-child(3)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > P:nth-child(3) > STRONG:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(1) > DIV:nth-child(1) > A:nth-child(3)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(4) > TD:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(2)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(3)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(6)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(10)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(11)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(3) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(3) > TD:nth-child(2) > P:nth-child(1) > A:nth-child(13)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(3) > TD:nth-child(2) > P:nth-child(1) > A:nth-child(16)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(5) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(4) > TD:nth-child(3) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(5) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(5) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(2)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(5) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(4)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(5) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(9)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(7) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(7) > TD:nth-child(2) > P:nth-child(1) > A:nth-child(5)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(7) > TD:nth-child(2) > P:nth-child(1) > A:nth-child(7)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(7) > TD:nth-child(2) > P:nth-child(1) > A:nth-child(8)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(7) > TD:nth-child(2) > P:nth-child(1) > A:nth-child(11)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(9) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(4)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(4) > TD:nth-child(4) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(9) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(7)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(9) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(8)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(11) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(11) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(3)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(11) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(6)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(11) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(8)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(11) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(9)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(11) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(13)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(11) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(14)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(13) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(4) > TD:nth-child(5) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(13) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(9)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(13) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(13)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(3) > TD:nth-child(1) > P:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikicmds > P:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#principale > TBODY:nth-child(1) > TR:nth-child(3) > TD:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(4) > TD:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(4) > TD:nth-child(3) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(4) > TD:nth-child(4) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(4) > TD:nth-child(5) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(4) > TD:nth-child(6) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(4) > TD:nth-child(6) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(4) > TD:nth-child(7) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(4) > TD:nth-child(8) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > DIV:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > DIV:nth-child(2) > A:nth-child(2)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > DIV:nth-child(2) > A:nth-child(3)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#langue > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#langue > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(5) > LI:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(5) > LI:nth-child(2) > A:nth-child(1)"
+    }
+  ],
+  "false": [
+    {
+      "type": "TypeAction",
+      "selector": "#twotabsearchtextbox",
+      "text": "inputText"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#nav-logo > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#nav-logo > A:nth-child(2)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#nav-prime-tooltip > DIV:nth-child(3) > A:nth-child(1)"
+    }
+  ]
+}

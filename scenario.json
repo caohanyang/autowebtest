@@ -1,15 +1,14 @@
 [
   {
     "type": "GotoAction",
-    "url": "https://www.amazon.fr/ref=nav_logo"
-  },
-  {
-    "type": "TypeAction",
-    "selector": "#twotabsearchtextbox",
-    "text": "samsung s8"
+    "url": "http://www.labri.fr/"
   },
   {
     "type": "ClickAction",
-    "selector": "#nav-search > FORM:nth-child(2) > DIV:nth-child(3) > DIV:nth-child(1) > INPUT:nth-child(2)"
+    "selector": "#menu > UL:nth-child(7) > LI:nth-child(1) > A:nth-child(1)"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#menu > UL:nth-child(7) > LI:nth-child(5) > A:nth-child(1)"
   }
 ]

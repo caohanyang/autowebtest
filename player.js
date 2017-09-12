@@ -18,7 +18,6 @@ class Player {
 					scenarioString = JSON.parse(fs.readFileSync(path.resolve(__dirname, process.argv[2])).toString())
 				} 
 			   
-				console.log("121234")
 				const scenario = new wat_action.Scenario(scenarioString)
 		
 				scenario.attachTo(nightmare)

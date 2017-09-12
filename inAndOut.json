@@ -1,1735 +1,666 @@
 {
-  "in": {
-    "GotoAction": [
-      {
-        "url": "https://www.amazon.fr/"
-      }
-    ],
-    "ScrollToAction": [
-      {
-        "x": 0,
-        "y": 0
-      }
-    ],
-    "MouseOverAction": [
-      {
-        "selector": "#nav-flyout-wishlist > DIV:nth-child(2) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(11) > DIV:nth-child(4) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(11) > DIV:nth-child(4) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(11) > DIV:nth-child(4) > A:nth-child(6)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(11) > DIV:nth-child(4) > A:nth-child(7)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(11) > DIV:nth-child(4) > A:nth-child(8)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(6)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(7)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(8)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(9)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(10)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(11)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(2) > A:nth-child(23)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(6)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(7)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(8)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(4) > DIV:nth-child(5) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(13) > DIV:nth-child(4) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(13) > DIV:nth-child(4) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(13) > DIV:nth-child(4) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(13) > DIV:nth-child(4) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(13) > DIV:nth-child(4) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(1) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(13) > DIV:nth-child(4) > A:nth-child(7)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(13) > DIV:nth-child(7) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(13) > DIV:nth-child(7) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(13) > DIV:nth-child(7) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(13) > DIV:nth-child(7) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(13) > A:nth-child(9)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(13) > A:nth-child(10)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(13) > A:nth-child(11)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(14) > DIV:nth-child(4) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(14) > DIV:nth-child(4) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(1) > DIV:nth-child(2) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(14) > DIV:nth-child(4) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(14) > DIV:nth-child(4) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(14) > DIV:nth-child(4) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(14) > DIV:nth-child(7) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(14) > DIV:nth-child(7) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(14) > DIV:nth-child(7) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(14) > DIV:nth-child(7) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(15) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(15) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(15) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(6)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(15) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(17) > DIV:nth-child(2) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(17) > DIV:nth-child(2) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(18) > DIV:nth-child(4) > A:nth-child(6)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(18) > DIV:nth-child(4) > A:nth-child(7)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(18) > DIV:nth-child(4) > A:nth-child(8)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(19) > DIV:nth-child(4) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(19) > DIV:nth-child(4) > A:nth-child(6)"
-      },
-      {
-        "selector": "#nav-link-prime"
-      },
-      {
-        "selector": "#nav-cart"
-      },
-      {
-        "selector": "#nav-link-shopall"
-      },
-      {
-        "selector": "#nav-your-amazon"
-      },
-      {
-        "selector": "#nav-xshop > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(2) > DIV:nth-child(4) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-xshop > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-xshop > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-xshop > A:nth-child(6)"
-      },
-      {
-        "selector": "#gw-desktop-herotator > DIV:nth-child(1) > DIV:nth-child(2) > DIV:nth-child(1) > DIV:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#gw-desktop-herotator > DIV:nth-child(1) > DIV:nth-child(2) > DIV:nth-child(1) > DIV:nth-child(3) > A:nth-child(1)"
-      },
-      {
-        "selector": "#desktop-unrec-cookie-disclosure > DIV:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#a-autoid-0-announce"
-      },
-      {
-        "selector": "#gw-sign-in-bottom > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#dotd-info > DIV:nth-child(2) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#dotd-image > DIV:nth-child(1) > DIV:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-prime-tooltip > DIV:nth-child(3) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-prime-menu > DIV:nth-child(3) > P:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navBackToTop"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(1) > UL:nth-child(2) > LI:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(1) > UL:nth-child(2) > LI:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(1) > UL:nth-child(2) > LI:nth-child(3) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(1) > UL:nth-child(2) > LI:nth-child(4) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(2)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(3) > UL:nth-child(2) > LI:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(3) > UL:nth-child(2) > LI:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(3) > UL:nth-child(2) > LI:nth-child(3) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(3) > UL:nth-child(2) > LI:nth-child(4) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(3) > UL:nth-child(2) > LI:nth-child(5) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(3) > UL:nth-child(2) > LI:nth-child(6) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(3) > UL:nth-child(2) > LI:nth-child(7) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(3) > UL:nth-child(2) > LI:nth-child(8) > A:nth-child(2)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(5) > UL:nth-child(2) > LI:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(5) > UL:nth-child(2) > LI:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(5) > UL:nth-child(2) > LI:nth-child(3) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(5) > UL:nth-child(2) > LI:nth-child(4) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(5) > UL:nth-child(2) > LI:nth-child(5) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(7) > UL:nth-child(2) > LI:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(7) > UL:nth-child(2) > LI:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(7) > UL:nth-child(2) > LI:nth-child(3) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(7) > UL:nth-child(2) > LI:nth-child(4) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(7) > UL:nth-child(2) > LI:nth-child(5) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(7) > UL:nth-child(2) > LI:nth-child(6) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(7) > UL:nth-child(2) > LI:nth-child(7) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(4) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(5) > UL:nth-child(1) > LI:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(5) > UL:nth-child(1) > LI:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(5) > UL:nth-child(1) > LI:nth-child(3) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(5) > UL:nth-child(1) > LI:nth-child(4) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(5) > UL:nth-child(1) > LI:nth-child(5) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(5) > UL:nth-child(1) > LI:nth-child(6) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(5) > UL:nth-child(1) > LI:nth-child(7) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(5) > UL:nth-child(1) > LI:nth-child(8) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(5) > UL:nth-child(1) > LI:nth-child(9) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(5)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(5) > UL:nth-child(1) > LI:nth-child(10) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(5) > UL:nth-child(1) > LI:nth-child(11) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(5) > UL:nth-child(1) > LI:nth-child(12) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(5) > UL:nth-child(1) > LI:nth-child(13) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(6) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(6) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(3) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(6) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(5) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(6) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(7) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(6) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(9) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(6) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(11) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(6) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(3) > TD:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(6) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(3) > TD:nth-child(3) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(6) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(3) > TD:nth-child(5) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(6) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(3) > TD:nth-child(7) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(6) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(3) > TD:nth-child(9) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(7) > UL:nth-child(1) > LI:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(7) > UL:nth-child(1) > LI:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(7) > UL:nth-child(1) > LI:nth-child(3) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(4) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(4) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(4) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(4) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(6) > DIV:nth-child(2) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-logo > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(6) > DIV:nth-child(2) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(7) > DIV:nth-child(4) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(7) > DIV:nth-child(7) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-logo > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(8) > DIV:nth-child(4) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(8) > DIV:nth-child(4) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(8) > DIV:nth-child(4) > A:nth-child(7)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(8) > DIV:nth-child(4) > A:nth-child(8)"
-      },
-      {
-        "selector": "#nav-prime-tooltip > DIV:nth-child(3) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(6)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(7)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(11) > DIV:nth-child(4) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(11) > DIV:nth-child(4) > A:nth-child(3)"
-      }
-    ],
-    "WaitAction": [
-      {
-        "ms": 1000
-      }
-    ],
-    "ClickAction": [
-      {
-        "selector": "#nav-logo > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-logo > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-prime-tooltip > DIV:nth-child(3) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(1) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(1) > DIV:nth-child(2) > A:nth-child(7)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(2) > DIV:nth-child(4) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(5) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(4) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(7) > DIV:nth-child(7) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(8) > DIV:nth-child(4) > A:nth-child(11)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(9) > DIV:nth-child(2) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(9) > DIV:nth-child(2) > A:nth-child(9)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(9)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(11) > DIV:nth-child(4) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(11) > DIV:nth-child(4) > A:nth-child(6)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(11) > DIV:nth-child(4) > A:nth-child(7)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(11)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(4) > DIV:nth-child(5) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(13) > DIV:nth-child(4) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(13) > DIV:nth-child(4) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(13) > DIV:nth-child(4) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(13) > DIV:nth-child(4) > A:nth-child(7)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(13) > DIV:nth-child(7) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(13) > A:nth-child(9)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(14) > DIV:nth-child(4) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(14) > DIV:nth-child(7) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(14) > DIV:nth-child(7) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(15) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(15) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(7)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(15) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(8)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(15) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(9)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(16) > DIV:nth-child(4) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(17) > DIV:nth-child(2) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(18) > DIV:nth-child(4) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(18) > DIV:nth-child(4) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(18) > DIV:nth-child(4) > A:nth-child(7)"
-      },
-      {
-        "selector": "#nav-link-prime"
-      },
-      {
-        "selector": "#nav-cart"
-      },
-      {
-        "selector": "#nav-link-shopall"
-      },
-      {
-        "selector": "#nav-xshop > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-xshop > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-xshop > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-xshop > A:nth-child(6)"
-      },
-      {
-        "selector": "#gw-desktop-herotator > DIV:nth-child(1) > DIV:nth-child(2) > DIV:nth-child(1) > DIV:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#gw-desktop-herotator > DIV:nth-child(1) > DIV:nth-child(2) > DIV:nth-child(1) > DIV:nth-child(3) > A:nth-child(1)"
-      },
-      {
-        "selector": "#desktop-unrec-cookie-disclosure > DIV:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#dotd-info > DIV:nth-child(2) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#dotd-image > DIV:nth-child(1) > DIV:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-prime-tooltip > DIV:nth-child(3) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-prime-menu > DIV:nth-child(3) > P:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navBackToTop"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(1) > UL:nth-child(2) > LI:nth-child(3) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(1) > UL:nth-child(2) > LI:nth-child(4) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(3) > UL:nth-child(2) > LI:nth-child(7) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(5) > UL:nth-child(2) > LI:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(5) > UL:nth-child(2) > LI:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(5) > UL:nth-child(2) > LI:nth-child(3) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(5) > UL:nth-child(2) > LI:nth-child(4) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(5) > UL:nth-child(2) > LI:nth-child(5) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(7) > UL:nth-child(2) > LI:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(7) > UL:nth-child(2) > LI:nth-child(3) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(7) > UL:nth-child(2) > LI:nth-child(4) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(7) > UL:nth-child(2) > LI:nth-child(5) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(7) > UL:nth-child(2) > LI:nth-child(6) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(7) > UL:nth-child(2) > LI:nth-child(7) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(4) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(5) > UL:nth-child(1) > LI:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(5) > UL:nth-child(1) > LI:nth-child(3) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(5) > UL:nth-child(1) > LI:nth-child(5) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(5) > UL:nth-child(1) > LI:nth-child(6) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(5) > UL:nth-child(1) > LI:nth-child(9) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(5) > UL:nth-child(1) > LI:nth-child(10) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(5) > UL:nth-child(1) > LI:nth-child(11) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(5) > UL:nth-child(1) > LI:nth-child(12) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(6) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(3) > TD:nth-child(3) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(7) > UL:nth-child(1) > LI:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(7) > UL:nth-child(1) > LI:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(7) > UL:nth-child(1) > LI:nth-child(3) > A:nth-child(1)"
-      }
-    ],
-    "BackAction": [],
-    "TypeAction": [
-      {
-        "selector": "#twotabsearchtextbox",
-        "text": "inputText"
-      }
-    ]
-  },
-  "out": {
-    "MouseOverAction": [
-      {
-        "selector": "#nav-flyout-wishlist > DIV:nth-child(2) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(14) > DIV:nth-child(9) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(15) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(1) > DIV:nth-child(2) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(15) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(15) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(15) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(7)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(15) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(8)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(15) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(9)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(15) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(15) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(1) > DIV:nth-child(2) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(16) > DIV:nth-child(4) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(16) > DIV:nth-child(4) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(16) > DIV:nth-child(4) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(16) > DIV:nth-child(4) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(17) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(17) > DIV:nth-child(2) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(18) > DIV:nth-child(4) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(18) > DIV:nth-child(4) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(1) > DIV:nth-child(2) > A:nth-child(6)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(18) > DIV:nth-child(4) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(18) > DIV:nth-child(4) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(18) > DIV:nth-child(4) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(18) > DIV:nth-child(4) > A:nth-child(9)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(18) > DIV:nth-child(4) > A:nth-child(10)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(18) > DIV:nth-child(4) > A:nth-child(11)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(19) > DIV:nth-child(4) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(1) > DIV:nth-child(2) > A:nth-child(7)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(19) > DIV:nth-child(4) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(19) > DIV:nth-child(4) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(19) > DIV:nth-child(4) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(19) > DIV:nth-child(4) > A:nth-child(7)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(19) > DIV:nth-child(4) > A:nth-child(8)"
-      },
-      {
-        "selector": "#nav-flyout-ya-signin > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-ya-newCust > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-yourAccount > DIV:nth-child(3) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(2) > DIV:nth-child(4) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav_prefetch_yourorders"
-      },
-      {
-        "selector": "#nav-flyout-yourAccount > DIV:nth-child(3) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-yourAccount > DIV:nth-child(3) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-yourAccount > DIV:nth-child(3) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-yourAccount > DIV:nth-child(3) > A:nth-child(6)"
-      },
-      {
-        "selector": "#nav-flyout-yourAccount > DIV:nth-child(3) > A:nth-child(8)"
-      },
-      {
-        "selector": "#nav-flyout-yourAccount > DIV:nth-child(3) > A:nth-child(9)"
-      },
-      {
-        "selector": "#nav-flyout-yourAccount > DIV:nth-child(3) > A:nth-child(10)"
-      },
-      {
-        "selector": "#nav-flyout-yourAccount > DIV:nth-child(3) > A:nth-child(11)"
-      },
-      {
-        "selector": "#nav-flyout-yourAccount > DIV:nth-child(3) > A:nth-child(12)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(2) > DIV:nth-child(4) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-yourAccount > DIV:nth-child(3) > A:nth-child(13)"
-      },
-      {
-        "selector": "#nav-signin-tooltip > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-signin-tooltip > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-link-yourAccount"
-      },
-      {
-        "selector": "#nav-link-wishlist"
-      },
-      {
-        "selector": "#50a7agoq6jivciy73ynciheh > DIV:nth-child(1) > DIV:nth-child(1) > SPAN:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#wtjrswni8etppjedwunb3xr > DIV:nth-child(2) > DIV:nth-child(1) > SPAN:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#00h2lsfy1g6rymtebmfi15ah > DIV:nth-child(1) > DIV:nth-child(1) > SPAN:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#7769s239ywxrd9to0exxubln > DIV:nth-child(1) > DIV:nth-child(1) > SPAN:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(2) > DIV:nth-child(4) > A:nth-child(4)"
-      },
-      {
-        "selector": "#popular-departments-ns_KGQHHAME384VD4CYB4CW_7260_ > DIV:nth-child(3) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#popular-departments-ns_KGQHHAME384VD4CYB4CW_7260_ > DIV:nth-child(3) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(2) > DIV:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#popular-departments-ns_KGQHHAME384VD4CYB4CW_7260_ > DIV:nth-child(3) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(2) > DIV:nth-child(1) > DIV:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#popular-departments-ns_KGQHHAME384VD4CYB4CW_7260_ > DIV:nth-child(3) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(2) > DIV:nth-child(2) > DIV:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#popular-departments-ns_KGQHHAME384VD4CYB4CW_7260_ > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#l3n0zajrjjyi2gjrykaitfbt > DIV:nth-child(4) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(3) > A:nth-child(1)"
-      },
-      {
-        "selector": "#l3n0zajrjjyi2gjrykaitfbt > DIV:nth-child(4) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > A:nth-child(4)"
-      },
-      {
-        "selector": "#l3n0zajrjjyi2gjrykaitfbt > A:nth-child(5)"
-      },
-      {
-        "selector": "#l3n0zajrjjyi2gjrykaitfbt > DIV:nth-child(6) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(5) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(5) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(5) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(4) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(4) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(4) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(4) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(5) > DIV:nth-child(4) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(5) > DIV:nth-child(4) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(5) > DIV:nth-child(4) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(5) > DIV:nth-child(4) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(5) > DIV:nth-child(4) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(6) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(6) > DIV:nth-child(2) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(6) > DIV:nth-child(2) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(7) > DIV:nth-child(4) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(7) > DIV:nth-child(4) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(7) > DIV:nth-child(4) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(7) > DIV:nth-child(4) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(7) > DIV:nth-child(7) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(8) > DIV:nth-child(4) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(8) > DIV:nth-child(4) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(8) > DIV:nth-child(4) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(8) > DIV:nth-child(4) > A:nth-child(9)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(8) > DIV:nth-child(4) > A:nth-child(11)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(9) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(9) > DIV:nth-child(2) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(9) > DIV:nth-child(2) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(9) > DIV:nth-child(2) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(9) > DIV:nth-child(2) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(9) > DIV:nth-child(2) > A:nth-child(7)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(9) > DIV:nth-child(2) > A:nth-child(8)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(9) > DIV:nth-child(2) > A:nth-child(9)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(9) > DIV:nth-child(2) > A:nth-child(10)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(9) > DIV:nth-child(2) > A:nth-child(11)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-wishlist > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(8)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(9)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-wishlist > DIV:nth-child(2) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(6)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(7)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(8)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(9)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(10)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(11) > DIV:nth-child(4) > A:nth-child(1)"
-      }
-    ],
-    "ClickAction": [
-      {
-        "selector": "#nav-flyout-wishlist > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-wishlist > DIV:nth-child(2) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-wishlist > DIV:nth-child(2) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-wishlist > DIV:nth-child(2) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(2) > A:nth-child(23)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(1) > DIV:nth-child(2) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(1) > DIV:nth-child(2) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(1) > DIV:nth-child(2) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(1) > DIV:nth-child(2) > A:nth-child(6)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(2) > DIV:nth-child(4) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(2) > DIV:nth-child(4) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(2) > DIV:nth-child(4) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(5) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(5) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(3) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(4) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(4) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(4) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(4) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(4) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(4) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(4) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(5) > DIV:nth-child(4) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(5) > DIV:nth-child(4) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(5) > DIV:nth-child(4) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(5) > DIV:nth-child(4) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(5) > DIV:nth-child(4) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(6) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(6) > DIV:nth-child(2) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(6) > DIV:nth-child(2) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(6) > DIV:nth-child(2) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(6) > DIV:nth-child(2) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(7) > DIV:nth-child(4) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(7) > DIV:nth-child(4) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(7) > DIV:nth-child(4) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(7) > DIV:nth-child(4) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(7) > DIV:nth-child(4) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(7) > DIV:nth-child(7) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(8) > DIV:nth-child(4) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(8) > DIV:nth-child(4) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(8) > DIV:nth-child(4) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(8) > DIV:nth-child(4) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(8) > DIV:nth-child(4) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(8) > DIV:nth-child(4) > A:nth-child(7)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(8) > DIV:nth-child(4) > A:nth-child(8)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(8) > DIV:nth-child(4) > A:nth-child(9)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(9) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(9) > DIV:nth-child(2) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(9) > DIV:nth-child(2) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(9) > DIV:nth-child(2) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(9) > DIV:nth-child(2) > A:nth-child(7)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(9) > DIV:nth-child(2) > A:nth-child(8)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(9) > DIV:nth-child(2) > A:nth-child(10)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(9) > DIV:nth-child(2) > A:nth-child(11)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(6)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(7)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(8)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(9)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(6)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(7)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(8)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(10) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(10)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(11) > DIV:nth-child(4) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(11) > DIV:nth-child(4) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(11) > DIV:nth-child(4) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(11) > DIV:nth-child(4) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(11) > DIV:nth-child(4) > A:nth-child(8)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(6)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(7)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(8)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(9)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(10)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(6)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(7)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(12) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(8)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(13) > DIV:nth-child(4) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(13) > DIV:nth-child(4) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(13) > DIV:nth-child(7) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(13) > DIV:nth-child(7) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(13) > DIV:nth-child(7) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(13) > A:nth-child(10)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(13) > A:nth-child(11)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(14) > DIV:nth-child(4) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(14) > DIV:nth-child(4) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(14) > DIV:nth-child(4) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(14) > DIV:nth-child(4) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(14) > DIV:nth-child(7) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(14) > DIV:nth-child(7) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(14) > DIV:nth-child(9) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(15) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(15) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(15) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(15) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(15) > DIV:nth-child(3) > DIV:nth-child(2) > A:nth-child(6)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(15) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(15) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(15) > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(16) > DIV:nth-child(4) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(16) > DIV:nth-child(4) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(16) > DIV:nth-child(4) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(17) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(17) > DIV:nth-child(2) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(17) > DIV:nth-child(2) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(18) > DIV:nth-child(4) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(18) > DIV:nth-child(4) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(18) > DIV:nth-child(4) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(18) > DIV:nth-child(4) > A:nth-child(6)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(18) > DIV:nth-child(4) > A:nth-child(8)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(18) > DIV:nth-child(4) > A:nth-child(9)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(18) > DIV:nth-child(4) > A:nth-child(10)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(18) > DIV:nth-child(4) > A:nth-child(11)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(19) > DIV:nth-child(4) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(19) > DIV:nth-child(4) > A:nth-child(2)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(19) > DIV:nth-child(4) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(19) > DIV:nth-child(4) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(19) > DIV:nth-child(4) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(19) > DIV:nth-child(4) > A:nth-child(6)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(19) > DIV:nth-child(4) > A:nth-child(7)"
-      },
-      {
-        "selector": "#nav-flyout-shopAll > DIV:nth-child(3) > DIV:nth-child(19) > DIV:nth-child(4) > A:nth-child(8)"
-      },
-      {
-        "selector": "#nav-flyout-ya-signin > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-ya-newCust > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-flyout-yourAccount > DIV:nth-child(3) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav_prefetch_yourorders"
-      },
-      {
-        "selector": "#nav-flyout-yourAccount > DIV:nth-child(3) > A:nth-child(3)"
-      },
-      {
-        "selector": "#nav-flyout-yourAccount > DIV:nth-child(3) > A:nth-child(4)"
-      },
-      {
-        "selector": "#nav-flyout-yourAccount > DIV:nth-child(3) > A:nth-child(5)"
-      },
-      {
-        "selector": "#nav-flyout-yourAccount > DIV:nth-child(3) > A:nth-child(6)"
-      },
-      {
-        "selector": "#nav-flyout-yourAccount > DIV:nth-child(3) > A:nth-child(8)"
-      },
-      {
-        "selector": "#nav-flyout-yourAccount > DIV:nth-child(3) > A:nth-child(9)"
-      },
-      {
-        "selector": "#nav-flyout-yourAccount > DIV:nth-child(3) > A:nth-child(10)"
-      },
-      {
-        "selector": "#nav-flyout-yourAccount > DIV:nth-child(3) > A:nth-child(11)"
-      },
-      {
-        "selector": "#nav-flyout-yourAccount > DIV:nth-child(3) > A:nth-child(12)"
-      },
-      {
-        "selector": "#nav-flyout-yourAccount > DIV:nth-child(3) > A:nth-child(13)"
-      },
-      {
-        "selector": "#nav-signin-tooltip > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-signin-tooltip > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#nav-link-yourAccount"
-      },
-      {
-        "selector": "#nav-link-wishlist"
-      },
-      {
-        "selector": "#nav-your-amazon"
-      },
-      {
-        "selector": "#50a7agoq6jivciy73ynciheh > DIV:nth-child(1) > DIV:nth-child(1) > SPAN:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#wtjrswni8etppjedwunb3xr > DIV:nth-child(2) > DIV:nth-child(1) > SPAN:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#00h2lsfy1g6rymtebmfi15ah > DIV:nth-child(1) > DIV:nth-child(1) > SPAN:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#7769s239ywxrd9to0exxubln > DIV:nth-child(1) > DIV:nth-child(1) > SPAN:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#a-autoid-0-announce"
-      },
-      {
-        "selector": "#gw-sign-in-bottom > A:nth-child(2)"
-      },
-      {
-        "selector": "#popular-departments-ns_KGQHHAME384VD4CYB4CW_7260_ > DIV:nth-child(3) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#popular-departments-ns_KGQHHAME384VD4CYB4CW_7260_ > DIV:nth-child(3) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(2) > DIV:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#popular-departments-ns_KGQHHAME384VD4CYB4CW_7260_ > DIV:nth-child(3) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(2) > DIV:nth-child(1) > DIV:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#popular-departments-ns_KGQHHAME384VD4CYB4CW_7260_ > DIV:nth-child(3) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(2) > DIV:nth-child(2) > DIV:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#popular-departments-ns_KGQHHAME384VD4CYB4CW_7260_ > DIV:nth-child(4) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#l3n0zajrjjyi2gjrykaitfbt > DIV:nth-child(4) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(3) > A:nth-child(1)"
-      },
-      {
-        "selector": "#l3n0zajrjjyi2gjrykaitfbt > DIV:nth-child(4) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > DIV:nth-child(1) > A:nth-child(4)"
-      },
-      {
-        "selector": "#l3n0zajrjjyi2gjrykaitfbt > A:nth-child(5)"
-      },
-      {
-        "selector": "#l3n0zajrjjyi2gjrykaitfbt > DIV:nth-child(6) > DIV:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(1) > UL:nth-child(2) > LI:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(1) > UL:nth-child(2) > LI:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(3) > UL:nth-child(2) > LI:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(3) > UL:nth-child(2) > LI:nth-child(2) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(3) > UL:nth-child(2) > LI:nth-child(3) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(3) > UL:nth-child(2) > LI:nth-child(4) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(3) > UL:nth-child(2) > LI:nth-child(5) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(3) > UL:nth-child(2) > LI:nth-child(6) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(3) > UL:nth-child(2) > LI:nth-child(8) > A:nth-child(2)"
-      },
-      {
-        "selector": "#navFooter > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(7) > UL:nth-child(2) > LI:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(5) > UL:nth-child(1) > LI:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(5) > UL:nth-child(1) > LI:nth-child(4) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(5) > UL:nth-child(1) > LI:nth-child(7) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(5) > UL:nth-child(1) > LI:nth-child(8) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(5) > UL:nth-child(1) > LI:nth-child(13) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(6) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(6) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(3) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(6) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(5) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(6) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(7) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(6) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(9) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(6) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(11) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(6) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(3) > TD:nth-child(1) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(6) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(3) > TD:nth-child(5) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(6) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(3) > TD:nth-child(7) > A:nth-child(1)"
-      },
-      {
-        "selector": "#navFooter > DIV:nth-child(6) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(3) > TD:nth-child(9) > A:nth-child(1)"
-      }
-    ]
-  }
+  "in": [
+    {
+      "type": "GotoAction",
+      "url": "http://www.labri.fr/"
+    },
+    {
+      "type": "ScrollToAction",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(8) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(16) > LI:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > P:nth-child(19) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > P:nth-child(19) > A:nth-child(3)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > P:nth-child(20) > A:nth-child(2)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > DIV:nth-child(22) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > DIV:nth-child(23) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(1) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(1) > P:nth-child(1) > SPAN:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(1) > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(1) > DIV:nth-child(1) > A:nth-child(3)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > P:nth-child(3) > STRONG:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(9) > LI:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(1) > DIV:nth-child(1) > A:nth-child(3)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(4) > TD:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(2)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(3)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(6)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(10)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(11)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(3) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(3) > TD:nth-child(2) > P:nth-child(1) > A:nth-child(13)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(9) > LI:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(3) > TD:nth-child(2) > P:nth-child(1) > A:nth-child(16)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(5) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(4) > TD:nth-child(3) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(5) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(5) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(2)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(5) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(4)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(5) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(9)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(7) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(7) > TD:nth-child(2) > P:nth-child(1) > A:nth-child(5)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(7) > TD:nth-child(2) > P:nth-child(1) > A:nth-child(7)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(4) > TD:nth-child(8) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(7) > TD:nth-child(2) > P:nth-child(1) > A:nth-child(8)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(7) > TD:nth-child(2) > P:nth-child(1) > A:nth-child(11)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(9) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(4)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(4) > TD:nth-child(4) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(9) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(7)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(9) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(8)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(11) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(11) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(3)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(11) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(6)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(11) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(8)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(9) > LI:nth-child(3) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(11) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(9)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(11) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(13)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(11) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(14)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(13) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(4) > TD:nth-child(5) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(13) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(9)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(13) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(13)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(3) > TD:nth-child(1) > P:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#wikicmds > P:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#principale > TBODY:nth-child(1) > TR:nth-child(3) > TD:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(9) > LI:nth-child(4) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(4) > TD:nth-child(3) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(4) > TD:nth-child(4) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(4) > TD:nth-child(5) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(4) > TD:nth-child(6) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(4) > TD:nth-child(6) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(4) > TD:nth-child(7) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(4) > TD:nth-child(8) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(9) > LI:nth-child(5) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#langue > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#langue > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(5) > LI:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(5) > LI:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > P:nth-child(10) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(12) > LI:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(4) > TD:nth-child(7) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(14) > LI:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(14) > LI:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(14) > LI:nth-child(3) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(14) > LI:nth-child(4) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > DIV:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(14) > LI:nth-child(5) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > P:nth-child(19) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > P:nth-child(19) > A:nth-child(3)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > P:nth-child(20) > A:nth-child(2)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(1) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(1) > P:nth-child(1) > SPAN:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > DIV:nth-child(2) > A:nth-child(2)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(2)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(3)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(6)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(10)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(11)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(3) > TD:nth-child(2) > P:nth-child(1) > A:nth-child(16)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > DIV:nth-child(2) > A:nth-child(3)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(5) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(5) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(5) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(2)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(3) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(5) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(4)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(5) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(9)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(7) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(7) > TD:nth-child(2) > P:nth-child(1) > A:nth-child(5)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(7) > TD:nth-child(2) > P:nth-child(1) > A:nth-child(11)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#langue > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(9) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(4)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(9) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(7)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(4) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(9) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(8)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(11) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(11) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(3)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(11) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(6)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(11) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(8)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(11) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(9)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(11) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(13)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(11) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(14)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#langue > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(13) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(5) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(13) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(9)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(13) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(5) > A:nth-child(13)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(3) > TD:nth-child(1) > P:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#principale > TBODY:nth-child(1) > TR:nth-child(3) > TD:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(5) > LI:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(5) > LI:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "WaitAction",
+      "ms": 1000
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(6) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(3) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(4) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(5) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(6) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(7) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(8) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(9) > LI:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(9) > LI:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(9) > LI:nth-child(3) > A:nth-child(1)"
+    },
+    {
+      "type": "BackAction"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(7) > LI:nth-child(7) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(9) > LI:nth-child(4) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(9) > LI:nth-child(5) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > P:nth-child(10) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(12) > LI:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(12) > LI:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(14) > LI:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(14) > LI:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(14) > LI:nth-child(3) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(14) > LI:nth-child(4) > A:nth-child(1)"
+    },
+    {
+      "type": "MouseOverAction",
+      "selector": "#menu > UL:nth-child(14) > LI:nth-child(5) > A:nth-child(1)"
+    }
+  ],
+  "out": [
+    {
+      "type": "ClickAction",
+      "selector": "#logo > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(4) > TD:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > DIV:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > DIV:nth-child(2) > A:nth-child(2)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > DIV:nth-child(2) > A:nth-child(3)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(12) > LI:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > UL:nth-child(16) > LI:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > DIV:nth-child(22) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#menu > DIV:nth-child(23) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(1) > TABLE:nth-child(2) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(1) > DIV:nth-child(1) > A:nth-child(3)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > P:nth-child(3) > STRONG:nth-child(1) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(1) > TD:nth-child(1) > DIV:nth-child(1) > A:nth-child(3)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(3) > TD:nth-child(2) > P:nth-child(1) > SPAN:nth-child(2) > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(3) > TD:nth-child(2) > P:nth-child(1) > A:nth-child(13)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(7) > TD:nth-child(2) > P:nth-child(1) > A:nth-child(8)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikicmds > P:nth-child(1) > A:nth-child(1)"
+    }
+  ]
 }

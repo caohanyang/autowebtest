@@ -4,7 +4,7 @@ const watlib = require('wat-action');
 const fs = require('fs');
 
 var nightmare = new Nightmare({ show: this.show });
-var url = 'https://www.amazon.fr/';
+var url = 'http://www.labri.fr/';
 var urlcheck = 'https://www.joomla.com/';// this rul has checkboxs password
 var urlTextarea = 'https://translate.google.cn/'; // there is a textarea
 var scenario = new watlib.Scenario();
