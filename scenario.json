@@ -1,14 +1,58 @@
 [
   {
     "type": "GotoAction",
-    "url": "http://www.labri.fr/"
+    "url": "https://pastebin.com/"
   },
   {
     "type": "ClickAction",
-    "selector": "#menu > UL:nth-child(7) > LI:nth-child(1) > A:nth-child(1)"
+    "selector": "#content_left > DIV:nth-child(8) > DIV:nth-child(2) > A:nth-child(4)"
   },
   {
     "type": "ClickAction",
-    "selector": "#menu > UL:nth-child(7) > LI:nth-child(5) > A:nth-child(1)"
+    "selector": "#myform > DIV:nth-child(2) > DIV:nth-child(1) > DIV:nth-child(1)"
+  },
+  {
+    "type": "TypeAction",
+    "selector": "#myform > DIV:nth-child(2) > DIV:nth-child(1) > DIV:nth-child(2) > INPUT:nth-child(1)",
+    "text": "cao007"
+  },
+  {
+    "type": "TypeAction",
+    "selector": "#myform > DIV:nth-child(2) > DIV:nth-child(2) > DIV:nth-child(2) > INPUT:nth-child(1)",
+    "text": "8365116"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#myform > DIV:nth-child(2) > DIV:nth-child(3) > DIV:nth-child(2) > INPUT:nth-child(1)"
+  },
+
+  {
+    "type": "ClickAction",
+    "selector": "#header_new_paste"
+  },
+
+  {
+    "type": "TypeAction",
+    "selector": "#paste_code",
+    "text": "\thello world"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#myform > DIV:nth-child(6) > DIV:nth-child(4) > DIV:nth-child(2) > SPAN:nth-child(2) > SPAN:nth-child(1) > SPAN:nth-child(1)"
+  },
+  {
+    "type": "TypeAction",
+    "selector": "#myform > DIV:nth-child(6) > DIV:nth-child(5) > DIV:nth-child(2) > INPUT:nth-child(1)",
+    "text": "hi"
+  },
+  {
+    "type": "ClickAction",
+    "selector": "#submit"
+  },
+  {
+    "type":"waitAction",
+    "ms":10000
   }
+
 ]
+
