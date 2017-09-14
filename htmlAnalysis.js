@@ -1,7 +1,7 @@
 module.exports = function() {
 
     const CLICKABLE_TAGS = ['submit','reset','radio','file'];
-
+    
     return {
         selectorsA: grabSelectorA(),
         checkbox: grabCheckbox(),
@@ -57,14 +57,13 @@ module.exports = function() {
         var selectors = [];
         var sels = document.getElementsByTagName('input');
         for (var i = 0; i < sels.length; i++) {
-            t = sels[i].type
-            if (CLICKABLE_TAGS.indexOf(sels[i]) !== -1){
+            if (CLICKABLE_TAGS.indexOf(sels[i].type) !== -1){
                 selectors.push({
                     kind: "click",
                     selector: computeSelector(sels[i]),
                 });
             }
-                
+
         }
 
         return selectors;
@@ -116,5 +115,35 @@ module.exports = function() {
         }
         return names.join(' > ');
     }
+
+    // function getScenario(){
+    //     analysisResult.inputText.forEach(inputText => {
+    //         scenario.addAction(new watlib.TypeAction(inputText.selector,"inputText"));
+    //     });
+
+    //     analysisResult.inputPassword.forEach(inputPassword => {
+    //         scenario.addAction(new watlib.TypeAction(inputPassword.selector,"inputPassword"));
+    //     });
+
+    //     analysisResult.textarea.forEach(textarea => {
+    //         scenario.addAction(new watlib.TypeAction(textarea.selector,"textarea"));
+    //     });
+
+    //     analysisResult.checkbox.forEach(checkbox => {
+    //         scenario.addAction(new watlib.CheckAction(checkbox.selector));
+    //     });
+
+    //     analysisResult.selectorsA.forEach(selectorsA => {
+    //         scenario.addAction(new watlib.MouseOverAction(selectorsA.selector));
+    //     });    // all the links for mouseover
+
+    //     analysisResult.selectorsA.forEach(selectorsA => {
+    //         scenario.addAction(new watlib.ClickAction(selectorsA.selector));
+    //     });
+
+    //     analysisResult.inputToClick.forEach(inputToClick => {
+    //         scenario.addAction(new watlib.ClickAction(inputToClick.selector));
+    //     });
+    // }
 
 };

@@ -1,73 +1,70 @@
-const Nightmare = require('nightmare');
-const htmlAnalysis = require('./htmlAnalysis.js');
-const watlib = require('wat-action');
-const fs = require('fs');
 
-var nightmare = new Nightmare({ show: this.show });
-var url = 'http://www.labri.fr/';
-var urlcheck = 'https://www.joomla.com/';// this rul has checkboxs password
-var urlTextarea = 'https://translate.google.cn/'; // there is a textarea
-var scenario = new watlib.Scenario();
+function crawl(url,path){
 
-// nightmare.goto(url).wait(2000).screenshot()
-nightmare.goto(url).screenshot()
-.then(() => {
-	return nightmare.evaluate(htmlAnalysis).end();
-}).then(analysisResult => {
+	const Nightmare = require('nightmare');
+	const htmlAnalysis = require('./htmlAnalysis.js');
+	const watlib = require('wat-action');
+	const fs = require('fs');
+	const fsWrite = require('./fsWrite.js');
 
-	scenario.addAction(new watlib.GotoAction(url));
-	scenario.addAction(new watlib.ScrollToAction(0, 10));
-	scenario.addAction(new watlib.WaitAction(1000));
-	scenario.addAction(new watlib.BackAction());
-	
+	var nightmare = new Nightmare({ show: false });
+	// var url = 'http://www.labri.fr/';
+	var urlcheck = 'https://www.joomla.com/';// this rul has checkboxs password
+	var urlTextarea = 'https://translate.google.cn/'; // there is a textarea
+	var scenario = new watlib.Scenario();
+	// var path = __dirname + '/set_actions.json';
+	// crawl(url,path);
 
-	analysisResult.inputText.forEach(inputText => {
-		scenario.addAction(new watlib.TypeAction(inputText.selector,"inputText"));
-	});
+	// nightmare.goto(url).wait(2000).screenshot()
+	nightmare.goto(url).screenshot()
+	.then(() => {
+		return nightmare.evaluate(htmlAnalysis).end();
+	}).then(analysisResult => {
 
-	analysisResult.inputPassword.forEach(inputPassword => {
-		scenario.addAction(new watlib.TypeAction(inputPassword.selector,"inputPassword"));
-	});
+		scenario.addAction(new watlib.GotoAction(url));
+		scenario.addAction(new watlib.ScrollToAction(100, 200));
+		scenario.addAction(new watlib.WaitAction(1000));
+		scenario.addAction(new watlib.BackAction());
 
-	analysisResult.textarea.forEach(textarea => {
-		scenario.addAction(new watlib.TypeAction(textarea.selector,"textarea"));
-	});
+		analysisResult.inputText.forEach(inputText => {
+			scenario.addAction(new watlib.TypeAction(inputText.selector,"inputText"));
+		});
 
-	analysisResult.checkbox.forEach(checkbox => {
-		scenario.addAction(new watlib.CheckAction(checkbox.selector));
-	});
+		analysisResult.inputPassword.forEach(inputPassword => {
+			scenario.addAction(new watlib.TypeAction(inputPassword.selector,"inputPassword"));
+		});
 
-	analysisResult.selectorsA.forEach(selectorsA => {
-		scenario.addAction(new watlib.MouseOverAction(selectorsA.selector));
-    });// all the links for mouseover
+		analysisResult.textarea.forEach(textarea => {
+			scenario.addAction(new watlib.TypeAction(textarea.selector,"textarea"));
+		});
 
-	analysisResult.selectorsA.forEach(selectorsA => {
-		scenario.addAction(new watlib.ClickAction(selectorsA.selector));
-	});
+		analysisResult.checkbox.forEach(checkbox => {
+			scenario.addAction(new watlib.CheckAction(checkbox.selector));
+		});
 
-	analysisResult.inputToClick.forEach(inputToClick => {
-		scenario.addAction(new watlib.ClickAction(inputToClick.selector));
-	});
+		analysisResult.selectorsA.forEach(selectorsA => {
+			scenario.addAction(new watlib.MouseOverAction(selectorsA.selector));
+		});
 
-	scenarioJson = JSON.stringify(JSON.parse(scenario.toJSON()),null,2);
+		analysisResult.selectorsA.forEach(selectorsA => {
+			scenario.addAction(new watlib.ClickAction(selectorsA.selector));
+		});
 
-	console.log(scenarioJson);
+		analysisResult.inputToClick.forEach(inputToClick => {
+			scenario.addAction(new watlib.ClickAction(inputToClick.selector));
+		});
 
-	var path = __dirname + '/set_actions.json';
+		scenarioJson = JSON.stringify(JSON.parse(scenario.toJSON()),null,2);
 
-	if(fs.existsSync(path) ){
-		fs.unlinkSync(path);
-	}
+		fsWrite.writeFile(scenarioJson,path);
 
-	fs.writeFile(path, scenarioJson, {flag: 'a'}, function (err) {
-		if(err) {
-			console.error(err);
-		} else {
-			console.log('write sucess');
-		}
+		
+	}).catch(err => {
+		console.log(err);
 	});
 
 
-}).catch(err => {
-    	console.log(err);
-    });
+
+}
+
+exports.crawl = crawl;
