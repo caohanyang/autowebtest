@@ -12,7 +12,8 @@ function detect (listener) {
   each(els, function (el) {
     el.addEventListener(listener, function (event) {
       if (listener === 'click') handle('click', event.target)
-      if (listener === 'keydown' && event.keyCode === 9) handle('type', event.target)
+      // if (listener === 'keydown' && event.keyCode === 9) handle('type', event.target)
+      if (listener === 'keydown' && event.keyCode === 17) handle('type', event.target)
     })
   })
 };

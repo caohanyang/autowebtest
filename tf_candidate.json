@@ -223,15 +223,15 @@
     },
     {
       "type": "ClickAction",
-      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(7) > TD:nth-child(2) > P:nth-child(1) > A:nth-child(8)"
-    },
-    {
-      "type": "ClickAction",
       "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(7) > TD:nth-child(2) > P:nth-child(1) > A:nth-child(11)"
     },
     {
       "type": "MouseOverAction",
       "selector": "#langue > A:nth-child(1)"
+    },
+    {
+      "type": "ClickAction",
+      "selector": "#wikitext > DIV:nth-child(2) > TABLE:nth-child(5) > TBODY:nth-child(1) > TR:nth-child(2) > TD:nth-child(1) > DIV:nth-child(2) > TABLE:nth-child(1) > TBODY:nth-child(1) > TR:nth-child(7) > TD:nth-child(2) > P:nth-child(1) > A:nth-child(8)"
     },
     {
       "type": "ClickAction",
