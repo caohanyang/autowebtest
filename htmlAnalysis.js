@@ -3,6 +3,7 @@ module.exports = function() {
     const CLICKABLE_TAGS = ['submit','reset','radio','file'];
     
     return {
+        URL: grabURL(),
         selectorsA: grabSelectorA(),
         checkbox: grabCheckbox(),
         inputText: grabInputText(),
@@ -10,6 +11,10 @@ module.exports = function() {
         inputToClick: grabInputToClick(),
         textarea: grabTextarea(),
     };
+
+    function grabURL(){
+        return document.URL;
+    }
 
     function grabSelectorA() {
         var selectors = [];

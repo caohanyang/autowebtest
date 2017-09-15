@@ -21,7 +21,7 @@ function crawl(url,path){
 		return nightmare.evaluate(htmlAnalysis).end();
 	}).then(analysisResult => {
 
-		scenario.addAction(new watlib.GotoAction(url));
+		scenario.addAction(new watlib.GotoAction(analysisResult.URL));
 		scenario.addAction(new watlib.ScrollToAction(100, 200));
 		scenario.addAction(new watlib.WaitAction(1000));
 		scenario.addAction(new watlib.BackAction());
