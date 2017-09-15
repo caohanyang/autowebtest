@@ -50,7 +50,7 @@
     "selector": "#submit"
   },
   {
-    "type":"waitAction",
+    "type":"WaitAction",
     "ms":10000
   }
 
