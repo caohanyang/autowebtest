@@ -45,6 +45,7 @@
     "css-path": "^1.0.3",
     "highlight-javascript": "0.0.3",
     "mocha": "^3.5.0",
+    "optimal-select": "^4.0.1",
     "syntax-highlighter": "0.0.3",
     "uid": "0.0.2",
     "wat-action": "^1.0.4"
